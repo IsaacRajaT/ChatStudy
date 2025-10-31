@@ -93,16 +93,16 @@ if ack:
 ## Server
 ```
  
-import socket
-s=socket.socket()
-s.connect(('localhost',8000))
-print(s.getsockname())
-print(s.recv(1024).decode())
+import socket 
+s=socket.socket() 
+s.connect(('localhost',8000)) 
+print(s.getsockname()) 
+print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
 ```
 
 ## Output
-<img width="1525" height="1089" alt="image" src="https://github.com/user-attachments/assets/448ec00e-2893-4122-ac6c-be2daa57f9f5" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a9bfb6d-fede-4ac4-ad4b-fe783a19a146" />
 
 
 ## Result:
